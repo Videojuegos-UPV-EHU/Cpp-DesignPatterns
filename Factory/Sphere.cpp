@@ -14,7 +14,7 @@ Sphere::Sphere(ifstream& inputFile)
 	getline(inputFile, line); //Radius= ...
 	m_radius = stod(line.substr(strlen("Radius= ")));
 
-	getline(inputFile, line); //skip the closing bracket '{'
+	getline(inputFile, line); //skip the closing bracket '}'
 }
 
 

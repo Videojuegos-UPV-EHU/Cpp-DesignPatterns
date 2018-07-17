@@ -16,7 +16,7 @@ Box::Box(ifstream& inputFile)
 	getline(inputFile, line); //Width= ...
 	m_width = stod(line.substr(strlen("Width= ")));
 
-	getline(inputFile, line); //skip the closing bracket '{'
+	getline(inputFile, line); //skip the closing bracket '}'
 }
 
 

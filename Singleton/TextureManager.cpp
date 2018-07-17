@@ -16,7 +16,7 @@ TextureManager::~TextureManager()
 
 TextureManager* TextureManager::Get()
 {
-	if (m_pInstance!= nullptr)
+	if (m_pInstance== nullptr)
 		m_pInstance = new TextureManager();
 	
 	return m_pInstance;
