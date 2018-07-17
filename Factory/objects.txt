@@ -1,0 +1,16 @@
+Sphere
+{
+Id= Sphere1
+Radius= 4.14
+}
+Box
+{
+Id= Box1
+Height= 2.1
+Width= 4.3
+}
+Sphere
+{
+Id= Sphere2
+Radius= 2.43
+}
